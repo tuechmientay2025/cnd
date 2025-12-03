@@ -1,0 +1,123 @@
+.simplepost{}
+.simplepost li{
+	    border-bottom: 1px solid #eee;
+    padding: 8px 0;
+}
+
+.simplepost li:before{
+	top: 50%;
+}
+
+
+.simplepostlist{}
+.simplepostlist a{
+	font-weight: bold;
+}
+.simplepostlist  img{
+	 border-radius: 8px;
+	 max-width: 100%;
+	 max-height: 100%;
+}
+.simplepostlist .b-item{
+	margin-bottom: 1rem;
+}
+.simplepostlist .b-item img {
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+   
+    width: 100%;
+}
+
+.simplepostlist .l-item{
+	
+        margin-bottom: 12px;
+    padding-bottom: 12px;
+        border-bottom: 1px solid rgba(43,43,43,0.08);
+}
+.simplepostlist .l-item:after{
+	content: " ";
+	clear: both;
+	display: block;
+}
+.simplepostlist .l-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.simplepostlist .l-item a{
+	    margin-right: 17px;
+}
+.simplepostlist .l-item .img{
+	    float: left;
+	width: 88px;
+    height: 56px;
+        margin-right: 16px;
+}
+
+
+
+.videolist{}
+.videolist a{
+	font-weight: bold;
+}
+.videolist .img{
+	position: relative;
+}
+.videolist .b-item .icon-play{
+	    position: absolute;
+    top: 33%;
+    left: 41%;
+    z-index: 2;
+    width: 56px;
+    height: 56px;
+}
+.videolist  img{
+	 border-radius: 8px;
+	 max-width: 100%;
+	 max-height: 100%;
+}
+.videolist .b-item{
+	margin-bottom: 1rem;
+}
+.videolist .b-item img {
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+   
+    width: 100%;
+}
+
+.videolist .l-item{
+	
+        margin-bottom: 12px;
+    padding-bottom: 12px;
+        border-bottom: 1px solid rgba(43,43,43,0.08);
+}
+.videolist .l-item .icon-play{
+	    position: absolute;
+    top: 20%;
+    left: 33%;
+    z-index: 2;
+    width: 32px;
+    height: 32px;
+}
+.videolist .l-item:after{
+	content: " ";
+	clear: both;
+	display: block;
+}
+.videolist .l-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.videolist .l-item a{
+	    margin-right: 17px;
+}
+.videolist .l-item .img{
+	    float: left;
+	width: 88px;
+    height: 56px;
+        margin-right: 16px;
+}

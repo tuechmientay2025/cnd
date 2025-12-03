@@ -1,0 +1,690 @@
+{% extends "index.phtml" %}
+{% block header %}
+<link rel="stylesheet" type="text/css" href="https://www.jqueryscript.net/demo/hierarchical-tree-bootree/bootree.min.css">
+  {% endblock %} 
+{% block content %}
+<div class="content-header">
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-6">
+        <h1 class="m-0 text-dark">Account - {{user.fullname_user}}</h1>
+      </div><!-- /.col -->
+      <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+          <li class="breadcrumb-item"><a href="<?php echo site_url() ?>">Home</a></li>
+          <li class="breadcrumb-item"><a href="<?php echo site_url("user") ?>">Khu vực</a></li>
+          <li class="breadcrumb-item active">Tài khoản</li>
+        </ol>
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.container-fluid -->
+</div>
+<div class="box">
+    <div class="box-header"><h3 class="box-title"></h3></div>
+   
+    <div class="box-body">
+      <div class="row">
+         <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="white-view  box-profile">
+                     <div class="text-center">
+                              <img class="profile-user-img img-responsive img-circle" src="{{user.avatar_user}}" alt="User profile picture">
+                          </div>
+
+                          <h3 class="profile-username text-center">{{user.fullname_user}}</h3>
+
+                          <p class="text-muted text-center">{{user.barcode}}</p>
+                          <p class="text-muted text-center"><?php echo date("d-m-Y h:i:s a",strtotime($user->created_date))?></p>
+                          <p class="text-muted text-center">Verified? <input type="checkbox" value="1" class="activated_user" <?php echo $user->activated_user==1?"checked='checked'":""; ?> ></p>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="box box-primary  white-view">
+                  
+                      <ul class="list-group list-group-unbordered">
+                        <li class="list-group-item">
+                          <b>Role</b> <a class="pull-right role_user_html">{{user.role_user}}</a> <br />
+
+                          <button class="btn btn-primary btn-member btn-xs" data-id="{{user.id_user}}">Upgrade</button>
+                        </li>
+                        <li class="list-group-item">
+                          <b>Affiliate</b> <a class="pull-right">0</a>
+                        </li>
+                        <li class="list-group-item">
+                          <b>Invited by</b>
+                          <?php
+                            $ref = $user->getReferer();
+                          ?>
+                          <a class="pull-right" href="<?php echo site_url($ref?"user/profile/{$ref->id_user}":"#"); ?>" target="_blank"><?php echo $ref?($ref->fullname_user?$ref->fullname_user:$ref->barcode):"n/a"; ?></a>
+                        </li>
+                        <li class="list-group-item">
+                          <b>Country</b> <a class="pull-right"><?php echo strtoupper($user->country); ?></a>
+                        </li> 
+                      </ul>
+
+                 
+                  </div>
+                </div> 
+              </div> 
+            </div>
+
+       
+            <!--  -->
+            <div class="col-md-6">
+                <div class="white-view">
+                <div class="form-group">
+                   <label for="ban">Banned?</label>
+                   <select id="ban" class="form-control">
+                      <option value="1" <?php echo $user->deleted_user==1?"selected":"N"; ?>>Yes</option>
+                      <option value="0" <?php echo $user->deleted_user==0?"selected":"N"; ?>>No</option>
+                   </select>
+                   
+                </div>
+                 <div>
+                   <button class="btn btn-primary btn-block btn-sm delete_account" data-id="{{user.id_user}}"><b>Delete account</b></button>
+                 </div>
+              </div>
+            </div>
+      </div>
+      <div class="row">
+         <div class="col-md-6">
+                <div class="white-view">
+                  <p>Report quick</p>
+                    <?php
+                        $report = $user->reportCache();
+                        // print_r($report);
+                      ?>
+                      <div>
+                        <button class="btn btn-info total_tokens">
+                           Wallet AZSD <br>
+                           <span><?php echo $report["LOCAL"] ?></span>
+                        </button>
+                        <button class="btn btn-info total_cashout">
+                           WALLET MAIN <br>
+                           <span><?php echo $report["WITHDRAWAL"] ?></span>
+                        </button>
+                         
+                        <button class="btn btn-info total_token">
+                           WALLET Stock <br>
+                           <span><?php echo $report["TOKEN"] ?></span>
+                        </button>
+                        <!-- <button class="btn btn-info total_stock">
+                           Tổng Cổ Phiếu <br>
+                           <span><?php echo $report["SHARES"] ?></span>
+                        </button>
+                        <button class="btn btn-info total_stock">
+                           Tổng Ví Refund <br>
+                           <span><?php echo $report["REFUND"] ?></span>
+                        </button>
+                        <button class="btn btn-info total_stock">
+                           Tổng Điểm <br>
+                           <span><?php echo $report["POINT"] ?></span>
+                        </button> -->
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="white-view">
+            <p>Access function</p>
+              <div>
+                 <a target="_blank" href="https://game.azservices.win/admin/user/profile/?token=<?php echo $token; ?>" class="btn btn-primary btn-xs">Game</a> 
+
+                <a target="_blank" href="https://pay.links.fund/admin/user/profile/?token=<?php echo $token; ?>" class="btn btn-info btn-xs">AZPay</a>
+
+                <a target="_blank" href="https://coin.links.fund/admin/user/profile/?token=<?php echo $token; ?>" class="btn btn-info btn-xs">AZCoin</a>
+
+                <a target="_blank" href="https://go.links.fund/admin/user/profile/?token=<?php echo $token; ?>" class="btn btn-info btn-xs">AZGo</a>
+
+                <a target="_blank" href="https://land.links.fund/admin/user/profile/?token=<?php echo $token; ?>" class="btn btn-info btn-xs">AZLand</a>
+
+                <a target="_blank" href="https://media.links.fund/admin/user/profile/?token=<?php echo $token; ?>" class="btn btn-info btn-xs">AZMedia</a>
+              </div>
+          </div>
+            </div>
+      </div>
+      <div class="row"></div>
+
+
+
+
+         <div class="row">
+ 
+            
+      
+        <!-- /.col -->
+        <div class="col-md-9">
+          
+          
+          <div class="nav-tabs-custom white-view">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#activity" data-toggle="tab">General</a></li>
+              <li><a href="#wallets" data-toggle="tab">Linked Wallet</a></li>  
+              <li><a href="#stock" data-toggle="tab">Stock</a></li>
+              <!-- <li><a href="#points" data-toggle="tab">Điểm thưởng</a></li> -->
+              <li><a href="#referrer" data-toggle="tab">Members</a></li> 
+              <li><a href="#settings" data-toggle="tab">Setting</a></li>
+              <li><a href="#KYC" data-toggle="tab">KYC</a></li>
+               
+            </ul>
+            <div class="tab-content">
+              <!-- Thông tin chung -->
+              <div class="active tab-pane" id="activity">
+                <?php  include_once ROOT."/~admin/views/user/parts/activity.php"; ?>
+                <!-- /.post -->
+              </div> 
+              <div class="tab-pane" id="wallets">
+                <?php  include_once ROOT."/~admin/views/user/parts/wallets.php"; ?>
+                <!-- /.post -->
+              </div> 
+              <!-- Danh sách điểm thưởng -->
+              <div class="tab-pane" id="points">
+                <?php  include_once ROOT."/~admin/views/user/parts/points.php"; ?>
+              </div>
+              <!-- Danh sách Giới thiệu -->
+              <div class="tab-pane" id="referrer">
+                <?php  include_once ROOT."/~admin/views/user/parts/referrer.php"; ?>
+              </div>
+              <!-- stock -->
+              <div class="tab-pane" id="stock">
+                <?php  include_once ROOT."/~admin/views/user/parts/stock.php"; ?>
+              </div>
+              <!-- Cài đặt -->
+              <div class="tab-pane" id="settings">
+                <h3>Mã Pin</h3>
+                <form class="form-horizontal" action="<?php echo site_url('user/profile/'.$user->id_user); ?>?update=setting" method="post">
+                  <div class="form-group">
+                    <label for="pin_user" class="col-sm-2 control-label">Mã Pin</label>
+
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" value="{{user.pin_user}}" name="pin_user" id="pin_user" placeholder="Nhập mã pin">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-danger">Cập nhật</button>
+                    </div>
+                  </div>
+                
+                <hr>
+                <h3>Mật khẩu</h3>
+                
+                  <div class="form-group">
+                    <label for="inputName" class="col-sm-2 control-label">Tên đăng nhập</label>
+
+                    <div class="col-sm-10">
+                      <input type="text" disable="disabled" class="form-control" name="username_user" id="inputName" value="{{user.username_user}}" placeholder="Name">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmaildd" class="col-sm-2 control-label">Mật khẩu mới</label>
+
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputEmaildd" name="password_user" placeholder="Password">
+                    </div>
+                  </div>
+                  <h3>API</h3>
+                   <div class="form-group">
+                    <label for="dasd" class="col-sm-2 control-label">Secret Key</label>
+
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" value="<?php echo $user->secret_key ?>" id="dasd" >
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="ddasd" class="col-sm-2 control-label">App ID</label>
+
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" value="<?php echo $user->username_user ?>" id="ddasd">
+                    </div>
+                  </div>
+
+
+                  <h3>API</h3>
+                  <div class="form-group">
+                    <label for="dasd" class="col-sm-2 control-label">Cho phép auto thanh toán</label>
+
+                    <div class="col-sm-10">
+                      <input type="checkbox" value="1" <?php echo $user->autowithdrawal==1?"checked":"" ?> >
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-danger">Cập nhật</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="tab-pane" id="KYC">
+                <?php  include_once ROOT."/~admin/views/user/parts/KYC.php"; ?>
+              </div>
+
+              
+              <!-- /.tab-pane -->
+            </div>
+            <!-- /.tab-content -->
+          </div>
+          <!-- /.nav-tabs-custom -->
+        </div>
+        <!-- /.col -->
+      </div>
+    </div>
+</div>
+      <!-- /.row -->
+{% endblock %}
+
+{% block footer %}  
+
+    <script src="/~admin/assets/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="/~admin/assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>   
+<script src="/~admin/assets/bower_components/ckeditor/ckeditor.js"></script>
+<!-- Bootstrap WYSIHTML5 -->
+<script src="/~admin/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>   
+    <script type="text/javascript">
+  
+      $(document).ready(function(){
+        
+        $(".btn-member").on("click",function(){
+           var id_user = $(this).data("id");
+            bootbox.prompt({
+                title: "Chuyển cấp bậc để chuyển",
+                inputType: 'select',
+                inputOptions: [
+                {
+                    text: 'Standard',
+                    value: 'standard',
+                },
+                {
+                    text: 'Silver',
+                    value: 'silver',
+                },
+                {
+                    text: 'Gold',
+                    value: 'gold',
+                },
+                {
+                    text: 'Premium',
+                    value: 'premium',
+                },
+                {
+                    text: 'Tester',
+                    value: 'test',
+                }
+                ],
+                callback: function (result) {
+                    if(result){
+                       $.ajax({
+                          type: "POST",
+                          url: "<?php echo site_url("user/rolemember/") ?>"+id_user,
+                          async: true,
+                          data: {role:result},
+                          success: function(res) {
+                             try{res = JSON.parse(res);}catch(ex){}
+
+                             if(typeof res =="object"){
+                               if(res.code){
+                                  $(".role_user_html").html(result);
+                                  showMessageBar(res.message);
+                               }else{
+                                alert(res.error);
+                               }
+                             }else{
+                              alert(res);
+                             }
+
+                          }
+                      });
+                    }
+                }
+            });
+        });
+
+        $(document).on("click",".delete_account",function(){
+          var UID = $(this).data('id');
+          if(confirm('Bạn chắc chắn muốn xoá không? Tài khoản sẽ bị xoá vĩnh viễn.')){
+            $.ajax({
+                type: "POST",
+                url: "<?php echo site_url("user/delete/") ?>"+UID+"/0/",
+                async: true,
+                data: {},
+                success: function(res) {
+                   try{
+                    res = JSON.parse(res);
+                   }catch(ex){
+
+                   }
+
+                   if(typeof res =="object"){
+                     if(res.code){
+                      showMessageBar(res.message);
+                     }else{
+                      showMessageBar(res.error,"warning");
+                     }
+                   }else{
+                    alert(res);
+                   }
+
+                }
+            });
+
+          }
+        });
+
+         // $('.dataTable').each(function(){
+         //   $(this).DataTable();
+         // });
+
+        // $('#editor1').wysihtml5(); 
+        //   $('#example1').DataTable();
+        //   $('#referers').DataTable();
+
+      
+      //links
+        var dataTable = $('.table-links').DataTable();
+        
+          $(document).on("click",".table-links .btn-delete",function(){
+             var tr =$(this).closest("tr");
+            var UID = tr.data('id');
+            if(confirm('Bạn chắc chắn muốn xoá gói package này không? Các thứ liên quan sẽ bị xoá theo')){
+              $.ajax({
+                  type: "POST",
+                  url: "<?php echo site_url("links/investdelete/") ?>"+UID,
+                  async: true,
+                  data: {},
+                  success: function(res) {
+                     try{
+                      res = JSON.parse(res);
+                     }catch(ex){
+
+                     }
+
+                     if(typeof res =="object"){
+                       if(res.code){
+                        tr.remove();
+                        showMessageBar(res.message);
+                        try{
+                          dataTable.ajax.reload();
+                           dataTable.fnDraw();
+                          
+                        }catch(ex){}
+                       }else{
+                        alert(res.error);
+                       }
+                     }else{
+                      alert(res);
+                     }
+
+                  }
+              });
+
+            }
+     
+        });
+      });
+    </script>
+
+     <script type="text/javascript">
+      $(document).ready(function(){
+      
+        //wallet az
+        var dataTablelocal = $('.wallet_local').DataTable();
+        
+          $(document).on("click",".wallet_local .btn-delete",function(){
+             var tr =$(this).closest("tr");
+            var UID = tr.data('id');
+            if(confirm('Bạn chắc chắn muốn xoá không?')){
+              $.ajax({
+                  type: "POST",
+                  url: "<?php echo site_url("wallet/azdelete/") ?>"+UID,
+                  async: true,
+                  data: {},
+                  success: function(res) {
+                     try{
+                      res = JSON.parse(res);
+                     }catch(ex){
+
+                     }
+
+                     if(typeof res =="object"){
+                       if(res.code){
+                        tr.remove();
+                        showMessageBar(res.message);
+                        dataTablelocal.fnDraw();
+                        dataTablelocal.ajax.reload();
+                       }else{
+                        alert(res.error);
+                       }
+                     }else{
+                      alert(res);
+                     }
+
+                  }
+              });
+
+            }
+     
+        });
+
+          //wallet az
+        var dataTablecashout = $('.wallet_cashout').DataTable();
+        
+          $(document).on("click",".wallet_cashout .btn-delete",function(){
+             var tr =$(this).closest("tr");
+            var UID = tr.data('id');
+            if(confirm('Bạn chắc chắn muốn xoá không?')){
+              $.ajax({
+                  type: "POST",
+                  url: "<?php echo site_url("wallet/azcashoutdelete/") ?>"+UID,
+                  async: true,
+                  data: {},
+                  success: function(res) {
+                     try{
+                      res = JSON.parse(res);
+                     }catch(ex){
+
+                     }
+
+                     if(typeof res =="object"){
+                       if(res.code){
+                        tr.remove();
+                        showMessageBar(res.message);
+                        dataTablecashout.fnDraw();
+                        dataTablecashout.ajax.reload();
+                       }else{
+                        alert(res.error);
+                       }
+                     }else{
+                      alert(res);
+                     }
+
+                  }
+              });
+
+            }
+     
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      
+        //point
+        var dataTablelocal = $('.table-point').DataTable();
+        
+          $(document).on("click",".table-point .btn-delete",function(){
+             var tr =$(this).closest("tr");
+            var UID = tr.data('id');
+            if(confirm('Bạn chắc chắn muốn xoá không?')){
+              $.ajax({
+                  type: "POST",
+                  url: "<?php echo site_url("point/delete/") ?>"+UID,
+                  async: true,
+                  data: {},
+                  success: function(res) {
+                     try{
+                      res = JSON.parse(res);
+                     }catch(ex){
+
+                     }
+
+                     if(typeof res =="object"){
+                       if(res.code){
+                        tr.remove();
+                        showMessageBar(res.message);
+                        dataTablelocal.fnDraw();
+                        dataTablelocal.ajax.reload();
+                       }else{
+                        alert(res.error);
+                       }
+                     }else{
+                      alert(res);
+                     }
+
+                  }
+              });
+
+            }
+     
+        });
+
+        
+      });
+
+                      /*!
+ * jQuery based plugin - Tree View
+ * Author : vsvvssrao (https://github.com/vsvvssrao)
+ * Demo link : https://vsvvssrao.github.io/TreeView/
+ * https://www.jqueryscript.net/other/tree-view-json-lazy-load.html
+ * Date: Sat Oct 26 2019
+ */
+// var Treedata = {
+//     "result": [
+//     {
+//         "id": "l01",
+//         "displayName": "Beverages",
+//         "hasChild": true,
+//         "isLoaded": true,
+//         "children": [{
+//             "id": "b01",
+//             "displayName": "Water",
+//             "hasChild": false,
+//             "isLoaded": false
+//         },
+//         {
+//             "id": "b01",
+//             "displayName": "Coffee",
+//             "hasChild": false,
+//             "isLoaded": false
+//         },
+//         {
+//             "id": "b01",
+//             "displayName": "Tea",
+//             "hasChild": false,
+//             "isLoaded": false
+//         }
+//         ]
+//     }, 
+//     {
+//         "id": "l05",
+//         "displayName": "Beverages2",
+//         "hasChild": false,
+//         "isLoaded": true,
+//         "children": []
+//     }]
+// };
+(function ($) {
+  $.fn.Ahlutree = function (options) {
+    var settings = $.extend({
+      data: function () { },
+      onDemandData: function () { },
+      render : null
+    }, options);
+    function GetData(f) {
+      return settings.data(f);
+    }
+    
+    function createTree(data, ulClassName) {
+      var parentUl = document.createElement('ul');
+      parentUl.className = ulClassName;
+      data.forEach(function(element){
+        var liElement = document.createElement('li');
+        liElement.setAttribute('data-hasChild', element.hasChild);
+        liElement.setAttribute('data-id', element.id);
+        liElement.setAttribute('data-isLoaded', element.isLoaded);
+        if (element.hasChild) {
+          var spanElement = document.createElement('span');
+          spanElement.innerHTML = typeof settings.render==="function"? settings.render(element):element.displayName;
+          spanElement.className = 'tv-caret';
+          liElement.append(spanElement);
+
+            if(element.children&&element.children.length>0){
+            liElement.append(createTree(element.children, 'tv-nested'));
+          }
+        } else {
+          liElement.innerHTML = typeof settings.render==="function"? settings.render(element):element.displayName;
+        }
+
+        
+        parentUl.append(liElement);
+      });
+      return parentUl;
+    }
+    var me = this;
+    GetData(function(data){
+      if(typeof data==="object" && data.length>0){
+        me.append(createTree(data, 'tv-ul'));
+      }
+    });
+    
+    $(me).off('click','.tv-caret').on('click','.tv-caret', function () {
+      var $this = $(this);
+      var li = $this.parent('li');
+      var id  = li.data("id");
+      var active = li.data("isloaded");
+      if (!active && id) {
+        // fetch data
+        settings.onDemandData(id,function(data){
+          if(typeof data==="object" && data.length>0){
+        var a = createTree(data, 'tv-nested');
+            // Append the data
+            li.append(a);
+            // Set isloaded to true
+            li.data("isloaded",true);
+            li.find('.tv-nested').toggleClass("active");
+            $this.toggleClass("tv-caret-down");
+          }
+          
+        });
+      }else{
+        li.find('.tv-nested').eq(0).toggleClass("active");
+         $this.toggleClass("tv-caret-down");
+      }
+    });
+    return this;
+  };
+}(jQuery));
+
+  $(document).ready(function(){
+    $(".btn-tree").on("click",function(){
+        $('.treeview_container').Ahlutree({
+          render : function(data){
+            return "<a href='<?php echo site_url("user/profile/") ?>"+data.id+"/' target='_blank'><strong>"+data.displayName+"</strong> <span style='font-size:12px;'>"+data.created_date+";(AZ Wallet: "+(data.local?data.local:0)+", AZ Widthraw: "+(data.withdrawal?data.withdrawal:0)+", Point: "+(data.point?data.point:0)+", Token: "+(data.token?data.token:0)+", Share: "+(data.shares?data.shares:0)+")</span></a>";
+          },
+          data: function(callback){
+            post_az_cache("user/leveltreea/{{user.id_user}}",{},function(res){
+                 callback(res.data);
+            },true);
+          },
+          onDemandData: function (id,callback) {
+            post(site_url_ajax_az("user/leveltreea/"+id),{},function(res){
+                 callback(res.data);
+            },true);
+          }
+        });
+    });
+    
+  });
+    </script>
+{% endblock %}

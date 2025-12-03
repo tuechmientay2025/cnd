@@ -1,0 +1,44 @@
+[12-Nov-2024 21:43:33 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php on line 17
+[12-Nov-2024 23:06:53 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php on line 17
+[15-Nov-2024 04:40:40 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php on line 17
+[15-Jan-2025 02:20:19 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php on line 17
+[15-Jan-2025 02:45:44 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php on line 17
+[15-Jan-2025 16:22:27 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php on line 17
+[15-Jan-2025 16:59:23 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php on line 17
+[17-Jan-2025 03:58:33 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php on line 17
+[17-Jan-2025 18:32:49 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php on line 17
+[02-Nov-2025 02:51:47 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php on line 17
+[02-Nov-2025 17:25:09 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport/Curl.php on line 17

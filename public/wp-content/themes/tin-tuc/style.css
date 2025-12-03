@@ -1,0 +1,456 @@
+/*
+
+Theme Name: Flatsome Tin tức
+
+Description: This is a child theme for Flatsome Theme
+
+Author: UX Themes
+
+Template: flatsome
+
+Version: 3.0
+
+*/
+
+.gap-element{
+  background-color: #eee;
+}
+ 
+.effect-sliding-glass{
+  display: none;
+}
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.listitems .post-item{
+    margin-bottom: 4px;
+}
+.listitems .box-blog-post{
+    display: flex;
+    flex-direction: row;
+}
+.listitems .box-image{
+    margin-right: 8px;
+    margin-top: 4px;
+}
+
+.listitems .big-block .text-left{
+    padding:0!important;
+}
+
+
+.entry-content img.size-full.alignnone {
+    margin-bottom: 0;
+}
+.entry-content p{
+    margin-bottom: 0.8em!important;
+}
+.entry-content p em{
+  font-size: 14px!important;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media  (max-width: 1023px)  {
+   .hidemobile{
+      display: none;
+  }
+  .listitems .box-image{
+     width: 30%!important;
+  }
+   .listitems .box-text{
+    padding: 0;
+  }
+}
+.barlow-thin {
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.barlow-extralight {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.barlow-light {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-medium {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-semibold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.barlow-bold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.barlow-extrabold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.barlow-black {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.barlow-thin-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.barlow-extralight-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.barlow-light-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.barlow-regular-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.barlow-medium-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.barlow-semibold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.barlow-bold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.barlow-extrabold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.barlow-black-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.fira-sans-thin {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.fira-sans-extralight {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.fira-sans-light {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-medium {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-sans-semibold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fira-sans-bold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fira-sans-extrabold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.fira-sans-black {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.fira-sans-thin-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.fira-sans-extralight-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.fira-sans-light-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.fira-sans-regular-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.fira-sans-medium-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.fira-sans-semibold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.fira-sans-bold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.fira-sans-extrabold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.fira-sans-black-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+.meta-related ul li a{color: #0092ff;} .meta-related ul li{line-height: 20px;} .meta-related ul{margin-left: 10px}
+
+
+.gallery-caption{
+       white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    --line-clamp: 2;
+}
+
+
+/* Dành cho điện thoại */
+ .list-news .item-list  p{
+    display: none;
+ }
+ .list-news .item-list  h4{
+        white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    --line-clamp: 2;
+ }
+@media all and (max-width: 480px) {
+
+.list-news li{width:46%!important}
+
+.list-news{width:100%;
+    display: flex!important;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;}
+
+.list-news .item-list p{display: none}
+
+}
+
+
+
+
+
+.product-footer .container>.row{
+
+	    display: flex;
+
+    flex-direction: row;
+
+    flex-grow: initial!important;
+
+}
+
+
+
+.product-footer .product-info{
+
+	flex: 1;
+
+	width: 70%;
+
+}
+
+
+
+.product-footer  #product-sidebar{
+
+	    min-width: 300px;
+
+}
+
+
+
+#header.sticky .html_topbar_left img{
+
+		height: 46px!important
+
+ 
+
+	} 
+
+.entry-content img{
+	max-width: 800px!important;
+	    height: auto !important;
+      margin: 0 auto;
+    display: block;
+}
+
+/* Dành cho máy tính bảng */
+
+@media (max-width: 1024px) {
+  .related-gallery .gallery-item{
+      width: 50%;
+  }
+  .related-gallery .gallery-item img{
+      height: 105px;
+  }
+	.entry-content img{
+	max-width: 100%!important;
+}
+
+  .entry-content iframe{
+  height: auto!important;
+}
+
+ 	.article-inner h1{
+
+ 		font-size: 20px!important
+
+ 	}	
+
+
+
+ 	.post-title{
+
+ 		    font-size: 16px!important
+
+ 	}
+
+}
+
+
+
+.big-block .box-text h5,.post-title a{
+   font-weight: 600!important;
+}
+
+#crumbs li{display: inline-block;margin-bottom: 0;}
+#crumbs{
+       margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 400;
+    background-color: transparent;
+    padding: 4px;
+    border: 2px solid #ffcc1a;
+    padding: 4px;
+}
+
+.crumbsbox{
+    padding-bottom: 0px !important;
+}
+.crumbsbox .col{
+    padding-bottom: 4px !important;
+}
+#co-the-ban-quan-tam{}
+#co-the-ban-quan-tam h3{
+        font-size: 1em;
+    font-weight: 600;
+    display: block;
+    text-align: left; 
+    padding: 8px;
+    color: #fff;
+    margin-bottom: 8px;
+        background-color: #ffcc1a;
+}
+
+.posttags{
+        display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.posttags a{
+        background-color: #eee;
+            margin-right: 8px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #000!important;
+}
+
+/*#header.has-sticky{
+  position: fixed;
+    z-index: 1000;
+}
+*/

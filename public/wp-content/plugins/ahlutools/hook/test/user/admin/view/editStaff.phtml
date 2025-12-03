@@ -1,0 +1,125 @@
+{% extends "index.phtml" %}
+{% block header %}{% endblock %} 
+{% block content %}
+
+<h1>Sửa tài khoản nhân viên</h1>
+<?php
+/**
+ * @access  EXPORT DATA USER
+ *  
+ * */
+
+if(isset($data_user)){extract($data_user);}
+?>
+<ol class="breadcrumb">
+  <li><a href="{{url('user/staff')}}"><i class="fa fa-dashboard"></i>Home</a></li>
+  <li><a href="#">Sửa tài khoản</a></li>
+</ol>
+
+<form method='POST' action="<?php echo htmlspecialchars(htmlentities($_SERVER['REQUEST_URI'])); ?>">
+<input type='hidden' name='id_user' value='<?php echo $id_user; ?>'>
+
+ <div class="row">
+      <div class="col-xs-9">
+            <div class="box">
+              <div class="box-body">  
+                <div class="form-group">
+                    <label for="fullname_user" class="col-xs-12 control-label">Họ và tên</label>
+                    <div class="col-xs-12">
+                      <input id='fullname_user' type="text" class="form-control required" minlength="1" name="fullname_user" required value='<?php echo $fullname_user; ?>'>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="phone_user" class="col-xs-12 control-label">Số điện thoại</label>
+                    <div class="col-xs-12">
+                      <input id='phone_user' type="phone" class="form-control required" minlength='1' name="phone_user" required value='<?php echo $phone_user; ?>'>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="email_user" class="col-xs-12 control-label">Email</label>
+                    <div class="col-xs-12">
+                      <input id='email_user' type="email" class="form-control required email" name="email_user" required value='<?php echo $email_user; ?>'>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="username_user" class="col-xs-12 control-label">Tên đăng nhập</label>
+                    <div class="col-xs-12">
+                      <input id='username_user' type="text" class="form-control required" minlength="1" name="username_user" required value='<?php echo $username_user; ?>'>
+                    </div>
+                  </div>
+                <?php 
+                  /**
+                   * @access SECURE 
+                   * 
+                   */
+                  global $GlobleUser;
+                  $privilege = $GlobleUser->role_admin;
+                  if($privilege == "ADMIN"):
+                ?>
+                    <div class='col-xs-12' style='margin:15px 0;'>
+                      <input id='change_password' type='checkbox' name='change_password'>
+                      <label for='change_password' class='control-label'>Thay đổi password</label>
+                    </div>
+
+                  <div id='change_password_display' class='change_password_display' style='display:none;'>
+
+                    <div class="form-group">
+                      <label for="password_user" class="col-xs-12 control-label">Mật khẩu</label>
+                      <div class="col-xs-12">
+                        <input id='password_user' type="password" class="form-control required" name="password_user" placeholder="Nhập mật khẩu mới...">
+                      </div>
+                    </div>
+
+                    <div class='form-group'>
+                      <label for='repassword' class="col-xs-12 control-label">Nhập lại mật khẩu</label>
+                      <div class='col-xs-12'>
+                      <input id='repassword' type='password' class='form-control required'  name='repassword' placeholder="Xác nhận lại mật khẩu">
+                      </div>
+                    </div>
+
+                  </div>
+                  <?php 
+                  endif; 
+                    /**
+                     * @access END SECURE
+                     * 
+                     */
+                  ?>
+                  <div class='form-group'>
+                      <div class='col-xs-12'>
+                        <input type='submit' class='btn btn-primary btn-sm' value='Cập nhật' style='margin-top:10px;'>
+                      </div>
+                  </div>
+                  
+                <!--  -->
+              </div>
+            </div>
+      </div>
+      <!--  -->
+
+
+</form>
+
+<?php if(isset($output) && !empty($output)): ?>
+<div id='notification'>
+  <div class='title'><?php echo $output; ?></div>
+</div>
+<?php endif; ?>
+{% endblock %}
+{% block footer %}
+
+<script src="/~admin/assets/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="/~admin/assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>      
+<!-- <script src="/~admin/assets/bower_components/ckeditor/ckeditor.js"></script> -->
+<style>
+  #change_password_display.active{display:block !important; }
+</style>
+<script type="text/javascript">
+  $(function () {$('#example1').DataTable();});
+  $(document).ready(function(){
+    $('#change_password').click(function(){
+      $('#change_password_display').toggleClass('active');
+    });
+  });
+</script>
+{% endblock %}

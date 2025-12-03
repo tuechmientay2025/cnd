@@ -1,0 +1,115 @@
+ .paginate-pagination {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+
+    -webkit-box-align: center;
+
+        -ms-flex-align: center;
+
+            align-items: center;
+
+  }
+
+  .paginate-pagination ul {
+
+  
+
+  margin: 20px 0;
+
+  padding: 0;
+
+  list-style: none;
+
+  
+
+}
+
+
+
+.paginate-pagination ul:after {
+
+  
+
+  content: ' ';
+
+  display: table;
+
+  clear: both;
+
+  
+
+}
+.paginate-pagination ul{
+  text-align: center;
+}
+
+
+.paginate-pagination ul.second{
+
+      width: 100%;
+
+    overflow-x: auto;
+
+    overflow-y: hidden;
+
+    white-space: nowrap;
+
+}
+
+
+
+.paginate-pagination ul > li {
+
+  
+
+  display: inline-block;
+
+  margin-right: 3px;
+
+  
+
+}
+
+
+
+.paginate-pagination ul > li > a.page {
+
+  
+
+  display: block;
+
+  height: 30px;
+
+  width: 30px;
+
+  text-align: center;
+
+  line-height: 30px;
+
+  border: 1px solid #ddd;
+
+  background: white;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  
+
+}
+
+
+
+.paginate-pagination ul > li > a.page:hover { opacity: 0.7; }
+
+.paginate-pagination ul > li > a.page.active { opacity: 0.7; cursor: default;background-color:#ddd }
+
+
+
+.paginate-pagination ul > li > a.page-next.deactive,
+
+.paginate-pagination ul > li > a.page-prev.deactive { opacity: 0.7; cursor: default; }

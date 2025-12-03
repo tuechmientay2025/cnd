@@ -1,0 +1,4 @@
+[07-Dec-2023 12:13:20 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ahluposy/public_html/donggiatri.com/wp-includes/class-wpdb.php on line 2035
+[07-Dec-2023 12:58:16 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ahluposy/public_html/donggiatri.com/wp-includes/class-wpdb.php on line 2035
+[07-Dec-2023 12:58:16 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ahluposy/public_html/donggiatri.com/wp-includes/class-wpdb.php on line 2035
+[07-Dec-2023 12:58:17 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ahluposy/public_html/donggiatri.com/wp-includes/class-wpdb.php on line 2035

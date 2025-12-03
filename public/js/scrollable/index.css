@@ -1,0 +1,11 @@
+.scrollable{
+  display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.scrollable>*{
+  display: inline-block !important;
+    margin-right: 8px;
+    float: none !important;
+}

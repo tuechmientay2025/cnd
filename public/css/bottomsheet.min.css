@@ -1,0 +1,5 @@
+body.bottomSheetOpen{overflow: hidden!important;
+    width: 100%!important;
+    height: 100%!important;}
+
+.downupPopup-content{padding: 8px;}#dark-back,.downupPopup{height:100%;position:fixed;overflow:hidden}.downupPopup{bottom:0;z-index:10000000;will-change:transform;background-color:#fff;left:50%}.downupPopup.no-act{transform:translate(-50%,100vh)!important}.downupPopup-header{padding:2vh 15px;background-color:#fff;display:flex;justify-content:space-between}.downupPopup-header .downupPopup-kapat{align-self:center;font-size:20px;cursor:pointer}#dark-back{top:0;left:0;width:100%;display:none;background:rgba(0,0,0,.4);z-index:90;padding-right:17px}

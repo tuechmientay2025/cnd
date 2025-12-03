@@ -1,0 +1,121 @@
+/*
+ Theme Name:   Woodmart Child
+ Description:  Woodmart Child Theme
+ Author:       XTemos
+ Author URI:   http://xtemos.com
+ Template:     woodmart
+ Version:      1.0.0
+ Text Domain:  woodmart
+*/
+
+
+.sidebar__block {
+   background: #f8f8f8;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+.sidebar__services .item {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.sidebar__services .item .icon {
+    margin-right: 5px;
+}
+.sidebar__services  img {
+    width: 35px;
+    height: 35px;
+}
+.main-page-wrapper {
+    padding-top: 0!important;
+}
+
+@media only screen and (max-width: 600px) {
+  .vc_column_container{
+      margin-bottom: 16px;
+	}
+    .hide-m{
+    	display: none;
+    }
+}
+
+
+.w50{
+    width: 50%
+}
+.inlineblock{
+    display: inline-block;
+}
+/*Tiki them*/
+.imgfull{}
+.imgfull .wpb_content_element{margin-bottom: 0;}
+.imgfull .wpb_wrapper{
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imgfull .vc_column-inner{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.imgfull img{
+    border-radius: 0;
+}
+
+#myModal .modal-content .close{
+    color: #cecece!important;
+    opacity: 1!important;
+}
+#myModal .modal-content{
+    padding: 12px;
+    height: 85%;
+    margin: 2% auto;
+   
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+@media screen and (max-width: 920px) {
+  .mainnav{
+    display: none;
+    }
+
+  .lastqc{
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .lastqc .wpb_column{
+    width: 50%;
+  }
+
+  .summary-block{
+        flex-direction: column;
+  }
+
+  .summary-block .summary-inner{
+   
+    width: 100%!important;
+  }
+   
+    .product-title {
+        display: -webkit-box;
+        max-width: 100%;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+
+/**/
+
+/*product detail*/
+.icon-box{    display: flex;}
+.icon-box .icon-box-img{margin-right: 8px;}
+.icon-box .icon-box-text{}
+.icon-box .icon-box-text h5{
+        margin: 0;
+}
+

@@ -1,0 +1,4 @@
+[26-May-2025 19:14:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/zatokzdl/wp.zatovi.net/wp-content/plugins/envato-market/inc/class-envato-market-github.php:379
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-content/plugins/envato-market/inc/class-envato-market-github.php on line 379

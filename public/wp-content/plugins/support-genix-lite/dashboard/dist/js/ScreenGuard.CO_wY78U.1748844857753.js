@@ -1,0 +1,1 @@
+import{f as c,j as t}from"../main.aHgQEcd5.1748844857753.js";const S=({children:s,showOn:n=[],hideOn:u=[]})=>{var l;const o=c();if(n.length===0&&u.length===0)return t.jsx(t.Fragment,{children:s});const r=(l=Object.entries(o).find(e=>e==null?void 0:e[1]))==null?void 0:l[0];return r&&(n.length===0||n.includes(r))&&!u.includes(r)?t.jsx(t.Fragment,{children:s}):null};export{S};

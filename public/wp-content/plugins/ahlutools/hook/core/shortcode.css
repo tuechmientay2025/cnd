@@ -1,0 +1,30 @@
+#header {
+    background-color:#565656;
+    color:white;
+    text-align:center;
+    height:10%;
+}
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align:center;
+}
+
+#header li {
+    display:inline;
+}
+
+#header li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#header li a:hover {
+    background-color: #111;
+}

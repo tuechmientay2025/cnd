@@ -1,0 +1,5 @@
+@media only screen and (max-width: 48em) {
+    .cam-nhan-khach-hang .icon-box { 
+        flex-direction: column;
+    }
+}

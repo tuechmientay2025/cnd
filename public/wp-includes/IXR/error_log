@@ -1,0 +1,92 @@
+[10-Nov-2024 06:01:02 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[10-Nov-2024 06:15:05 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[12-Nov-2024 08:12:52 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[12-Nov-2024 09:09:34 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[07-Jan-2025 15:23:23 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[12-Jan-2025 17:12:46 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[12-Jan-2025 18:23:16 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[15-Jan-2025 14:24:02 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[15-Jan-2025 14:24:04 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[15-Jan-2025 14:28:24 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[15-Jan-2025 14:56:11 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[16-Jan-2025 17:09:23 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[16-Jan-2025 22:21:02 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[17-Jan-2025 15:35:45 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[17-Jan-2025 15:37:36 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[19-Jan-2025 12:27:26 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[21-Jun-2025 00:46:59 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[21-Jun-2025 05:00:35 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[23-Jun-2025 23:32:27 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[01-Nov-2025 23:48:52 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[01-Nov-2025 23:49:03 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[01-Nov-2025 23:57:05 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[01-Nov-2025 23:57:24 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/IXR/class-IXR-introspectionserver.php on line 9

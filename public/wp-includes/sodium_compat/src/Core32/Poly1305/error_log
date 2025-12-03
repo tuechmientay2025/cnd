@@ -1,0 +1,8 @@
+[11-Nov-2024 08:50:15 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core32_Util' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/sodium_compat/src/Core32/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/sodium_compat/src/Core32/Poly1305/State.php on line 10
+[13-Nov-2024 10:28:14 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core32_Util' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/sodium_compat/src/Core32/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/sodium_compat/src/Core32/Poly1305/State.php on line 10

@@ -1,0 +1,208 @@
+{% extends "index.phtml" %}
+{% block header %}{% endblock %} 
+{% block content %}
+<h1>
+        Thêm cửa hàng
+      </h1>
+<ol class="breadcrumb">
+        <li><a href="{{url()}}"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="{{url('user/outlet/')}}">Danh sách cửa hàng</a></li>
+        <li><a href="#" class="active">Thêm cửa hàng</a></li>
+      </ol>
+<form class="form-horizontal main-form">
+<input type="hidden" name="role_user" value="OUTLET">
+<?php
+ if($user && $user->id_user){
+  echo '<input type="hidden" name="id_outlet" value="'.$user->id_user.'">';
+}
+
+?>
+  <div class="row action-alert">
+    <div class="col-xs-12">
+      <div class="alert-warning alert hide"></div>
+      <div class="alert-danger alert hide"></div>
+      <div class="alert-success alert hide"></div>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-xs-9">
+            <div class="box">
+              <div class="box-header">
+                <h3 class="box-title">Thông tin cửa hàng</h3>
+              </div>
+              <div class="box-body">
+                <!--  -->
+                <div class="form-group">
+                    <label for="id_parent" class="col-sm-2 control-label">Người giới thiệu</label>
+
+                    <div class="col-sm-10">
+                      <select class="form-control" name="id_parent" id="id_parent">
+                          <option value="">--None--</option>
+                          <?php 
+                            foreach(User::find("role_user in ('STAFF','OUTLET') and activated_user=1")->toArray() as $v){
+                              echo '<option '.($user && $user->id_parent==$v["id_parent"]?"selected":"").' value="'.$v["id_user"].'">'.$v["fullname_user"].'</option>';
+                            }
+                          ?>
+                      </select>
+                    </div>
+                  </div>
+                <div class="form-group">
+                    <label for="fullname_user" class="col-sm-2 control-label">Họ và tên</label>
+
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control required" minlength="6" name="fullname_user" id="fullname_user" placeholder="" value="<?php echo $user?$user->fullname_user:""; ?>">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="phone_user" class="col-sm-2 control-label">Số điện thoại</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" name="phone_user" id="phone_user" placeholder="" value="<?php echo $user?$user->phone_user:""; ?>">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="email_user" class="col-sm-2 control-label">Email</label>
+
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control required email" name="email_user" id="email_user" placeholder="" value="<?php echo $user?$user->email_user:""; ?>">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="username_user" class="col-sm-2 control-label">Tên đăng nhập</label>
+
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control required" minlength="6" name="username_user" id="username_user" placeholder="" value="<?php echo $user?$user->username_user:""; ?>">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="password_user" class="col-sm-2 control-label">Mật khẩu</label>
+
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control required" minlength="6" name="password_user" id="password_user" placeholder="" value="<?php echo $user?$user->password_user:""; ?>">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="activated_user" class="col-sm-2 control-label">Kích hoạt?</label>
+
+                    <div class="col-sm-10">
+                      <input type="checkbox" name="activated_user" value="1" id="activated_user" checked="checked">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="address_user" class="col-sm-2 control-label">Địa chỉ</label>
+
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="address_user" name="address_user" placeholder="">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="intro_user" class="col-sm-2 control-label">Mô tả cửa hàng</label>
+
+                    <div class="col-sm-10">
+                      <textarea id="editor1" name="intro_user" rows="10" cols="80"></textarea>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="avatar_user" class="col-sm-2 control-label">Hình ảnh</label>
+
+                    <div class="col-sm-10">
+                      <input type="hidden"  id="avatar_user" name="avatar_user" placeholder="">
+                      <div class="holder-image">
+                        <img src="https://ahlumobile.ahlustore.website/logo.png" alt="" width="125" height="125" >
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="form-group">
+                    <label for="lat" class="col-sm-2 control-label">Vị trí Lat</label>
+
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="lat" name="lat" placeholder="">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="lng" class="col-sm-2 control-label">Vị trí Lng</label>
+
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="lng" name="lng">
+                    </div>
+                  </div> 
+                  <hr>
+                  
+                <!--  -->
+              </div>
+            </div>
+      </div>
+      <!--  -->
+       <div class="col-xs-3">
+          <div class="box">
+              <div class="box-header">
+                <h3 class="box-title">Thao tác</h3>
+              </div>
+              <div class="box-body">
+                <button type="submit" class="btn btn-info btn-sm btn-modify">Thêm mới</button>
+              </div>
+            </div>
+        <div class="box">
+              <div class="box-header">
+                <h3 class="box-title">Giảm giá cho cửa hàng</h3>
+              </div>
+              <div class="box-body">
+                <input type="text" class="form-control" placeholder="Gõ % hoặc số tiền">
+              </div>
+            </div>
+       </div>
+  </div>
+</form>
+{% endblock %}
+
+{% block footer %}  
+<script src="/~admin/assets/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="/~admin/assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>      
+<script src="/~admin/assets/bower_components/ckeditor/ckeditor.js"></script>
+    <script type="text/javascript">
+         $(function () {
+            CKEDITOR.replace('editor1');
+            $(".holder-image").css("cursor","pointer").on("click",function(e){
+
+                filemanger(function(res){
+                    var url ="/public/"+res.data[0];
+                    $("#avatar_user").val(url);
+                    $(e.target).find("img").attr("src",url);
+                });
+            });
+            $("#email_user").on("keyup",function(){
+               $("#username_user").val(this.value.substring(0,this.value.indexOf("@")!=-1?this.value.indexOf("@"):this.value));
+            });
+            $("form.main-form").validate({
+               submitHandler : function(form){
+                for(var instanceName in CKEDITOR.instances){
+                    CKEDITOR.instances[instanceName].updateElement();
+                }
+
+                  var data = $(form).serializeObject();
+                  console.log(data);
+                  $.post("<?php echo site_url("user/register/".($user?$user->id_user:""))?>",data,function(res){
+                    try{
+                      res = JSON.parse(res.trim());
+                    }catch(ex){}
+                    if(typeof res==="object"){
+                         if(res.code==1){
+                            $(".action-alert .alert").addClass("hide");
+                            $(".action-alert .alert-success").removeClass("hide").html(res.message);
+                         }else{
+                            $(".action-alert .alert").addClass("hide");
+                            $(".action-alert .alert-warning").removeClass("hide").html(res.error);
+                         }
+                      }else{
+                        
+                      }
+
+                      setTimeout(function(){
+                          $(".action-alert .alert").addClass("hide");
+                      },6000);
+                  });
+               }
+            });
+        });
+    </script>
+{% endblock %}

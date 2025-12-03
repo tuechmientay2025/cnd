@@ -1,0 +1,86 @@
+body {
+    font-family: "Barlow", sans-serif!important;
+}
+h1, h2, h3, h4, h5, h6, .heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a {
+   font-family: "Barlow", sans-serif!important;
+}
+.header-main{
+  /* background-color: #ffcc1a!important;
+    color: #fff;*/
+}
+
+.mobile-nav.nav .header-button a{
+      background-color: transparent!important;
+      border: 0!important;;
+    font-size: 24px;
+    color: #ffcc1a;
+}
+
+#wide-nav{
+   background-color: #ffcc1a!important;
+    color: #fff!important;
+}
+
+#wide-nav .current-menu-item > a {
+    background-color: #e9bd1e;
+}
+
+.off-canvas .sidebar-menu{
+    background: #ffcc1a!important;
+}
+.nav-sidebar.nav-vertical>li+li {
+    border-top: 1px solid #ffcc1a!important;
+}
+
+.off-canvas:not(.off-canvas-center) .nav-vertical li.current_page_item a {
+      background: #e9bd1e!important;
+}
+
+.absolute-footer, html {
+    background-color: #e9bd1e!important;
+}
+
+
+.title-cat h2{
+    background-color: #ffcc1a!important;
+    border-bottom: 1px solid #ffcc1a!important;
+    border-left: 10px solid #ffcc1a!important;
+}
+.title-cat h2 a{
+    color: #fff;
+}
+
+
+
+@media (max-width: 1015px) {
+    .bigsmall{}
+    /*first */
+    .bigsmall .post-item:nth-child(n + 1) .box-blog-post{
+       display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .bigsmall .post-item:nth-child(n + 1) .box-blog-post .box-image{
+        width: 30%!important;
+        margin-right: 8px;
+    }
+    .bigsmall .post-item:nth-child(n + 1) .box-blog-post .from_the_blog_excerpt {
+        display: none;
+    }
+    .bigsmall .post-item:nth-child(n + 1) .box-blog-post .box-text{
+        padding: 0;
+    }
+    
+
+/*    */
+    .bigsmall .post-item:first-child .box-blog-post{
+       display: block!important; 
+    }
+    .bigsmall .post-item:first-child .box-blog-post .box-image{
+        width: 100%!important;
+        margin-right: 0px!important;
+    }
+    .bigsmall .post-item:first-child .box-blog-post .from_the_blog_excerpt {
+        display: block!important;
+    }
+}

@@ -1,0 +1,24 @@
+
+
+@media screen and (max-width: 1020px) {
+    .modal .modal-content{
+    	width: 95%!important;
+	}
+	p,.title, .woocommerce-Reviews .comment-reply-title, h1, h2, h3, h4, h5, h6, legend,.vc_gitem-post-data {
+	    margin-bottom: 8px!important;
+	}
+
+	.vc_grid.vc_row.vc_grid-gutter-30px .vc_grid-item{
+
+	}
+	.vc_grid.vc_row.vc_grid-gutter-30px .vc_grid-item .vc_grid-item-mini{
+		    height: auto !important;
+	}
+	.vc_grid.vc_row.vc_grid-gutter-30px .vc_grid-item .vc_grid-item-mini>div{
+		float: none!important;
+		width: 100%!important;
+	}
+	.vc_grid.vc_row.vc_grid-gutter-30px .vc_grid-item .vc_btn3-container{
+		text-align: center!important;
+	}
+}

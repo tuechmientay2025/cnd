@@ -1,0 +1,272 @@
+/*
+Theme Name: Flatsome  Land
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+.fa-map-marker:before, .fa-phone-square:before, .fa-clock-o:before, .fa-globe:before, .fa-envelope:before, .fa-bed:before, .fa-bath:before, .fa-arrows-alt:before, .footer-1 a:before {
+    font-family: 'Font Awesome 5 Pro';
+    text-decoration: inherit;
+    position: relative;
+    margin-right: .3em;
+}
+
+.fa-map-marker:before {content: "\f041";}
+.fa-phone-square:before {content: "\f098";}
+.fa-clock-o:before {content: "\f017";}
+.fa-globe:before {content: "\f0ac";}
+.fa-envelope:before {content: "\f0e0";}
+.fa-bath:before {content: "\f2cd";}
+.fa-arrows-alt:before {content: "\f0b2";}
+.footer-1 a:before {content: "\f0c1";}
+
+/*================*/
+/* CSS Footer
+/*================*/
+.footer-1 .widget-title {
+    color: white;
+}
+
+.footer-1 p {
+    color: white;
+    margin-bottom: 2.5px;
+}
+
+.footer-1 .is-divider {
+    background-color: rgb(3 111 251);
+}
+
+.footer-1 a {color: white;}
+.footer-1 a:hover {color: red;margin-left: 10px;transition: .5s;}
+
+/*================*/
+/* CSS Home
+/*================*/
+.home-icon .box-image img {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 99%;
+    border: 1px solid #ececec;
+    padding: 5px;
+}
+
+/*================*/
+/* CSS Post
+/*================*/
+.archive-page-header .row{max-width: 980px;}
+.page-title {border-bottom: 3px solid #036ffb;}
+.page-title span{
+	background: #036ffb;
+    color: white;
+    padding: 2px 10px;
+    font-size: 24px;
+}
+.post .entry-header {margin-bottom: 20px;}
+
+.entry-header, .entry-content, .navigation-post, .post-sidebar .widget_text, .post-sidebar .widget_recent_entries, .post-sidebar .widget_categories, .blog-archive .box-text {
+    border: 1px solid #eef1fd;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    -ms-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    background: white;
+    padding: 20px;
+}
+
+.post .fa, .fas {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
+}
+/*================*/
+/* CSS Liên hệ
+/*================*/
+.lien-he{
+	background-image: url(https://toancr.com/wp-content/themes/camranhmedia-child/image/background-thiet-ke-web.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*================*/
+/* Hiệu ứng PULSE SHRINK
+/*================*/
+
+@-webkit-keyframes pulse-shrink-on-hover {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes pulse-shrink-on-hover {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.pulse-shrink-on-hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-animation-name: pulse-shrink-on-hover;
+  animation-name: pulse-shrink-on-hover;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+.pulse-shrink-on-hover:hover,
+.pulse-shrink-on-hover:focus,
+.pulse-shrink-on-hover:active {
+  
+}
+
+/*================*/
+/* Hiệu ứng BUZZ
+/*================*/
+
+@-webkit-keyframes buzz-on-hover {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+@keyframes buzz-on-hover {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+.buzz-on-hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-animation-name: buzz-on-hover;
+  animation-name: buzz-on-hover;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.buzz-on-hover:hover,
+.buzz-on-hover:focus,
+.buzz-on-hover:active {
+  
+}
+
+/* Hiệu ứng mở bán
+*/
+figure.photo {
+  position: relative;
+  overflow: hidden;
+  min-width: 220px;
+  max-width: 100%;
+  max-height: 220px;
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+figure.photo * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+figure.photo img {
+  max-width: 100%;
+  position: relative;
+  opacity: 0.4;
+  display: block;
+}
+
+figure.photo figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+figure.photo h3 {
+  position: absolute;
+  left: 10px;
+  right: 40px;
+  display: inline-block;
+  background: #000000;
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  padding: 12px 5px;
+  margin: 0;
+  top: 50%;
+  text-transform: uppercase;
+  font-weight: 400;
+	color: #f77200;
+	font-size: 18px;
+}
+
+figure.photo h3 span {
+  font-weight: 800;
+}
+
+figure.photo:before {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background: #ffffff;
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: rotate(110deg) translateY(-50%);
+  transform: rotate(110deg) translateY(-50%);
+}
+
+figure.photo a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+figure.photo:hover img,
+figure.photo.hover img {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+figure.photo:hover h3,
+figure.photo.hover h3 {
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+}
+
+figure.photo:hover:before,
+figure.photo.hover:before {
+  -webkit-transform: rotate(110deg) translateY(-150%);
+  transform: rotate(110deg) translateY(-150%);
+}

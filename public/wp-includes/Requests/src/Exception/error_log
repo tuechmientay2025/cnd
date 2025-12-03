@@ -1,0 +1,152 @@
+[12-Nov-2024 21:01:17 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php on line 18
+[12-Nov-2024 21:02:06 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php on line 17
+[12-Nov-2024 21:02:55 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php on line 20
+[13-Nov-2024 00:43:33 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php on line 18
+[15-Nov-2024 03:15:11 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php on line 20
+[15-Nov-2024 03:19:11 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php on line 17
+[15-Nov-2024 03:22:11 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php on line 18
+[15-Jan-2025 01:51:42 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php on line 18
+[15-Jan-2025 01:51:49 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php on line 20
+[15-Jan-2025 01:55:05 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php on line 17
+[15-Jan-2025 03:28:05 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php on line 18
+[15-Jan-2025 03:59:51 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php on line 20
+[15-Jan-2025 05:02:05 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php on line 17
+[15-Jan-2025 15:27:00 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php on line 18
+[15-Jan-2025 16:09:05 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php on line 20
+[15-Jan-2025 16:09:14 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php on line 17
+[15-Jan-2025 16:32:09 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php on line 18
+[15-Jan-2025 16:47:51 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php on line 20
+[15-Jan-2025 18:15:08 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php on line 17
+[17-Jan-2025 03:09:20 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php on line 17
+[17-Jan-2025 04:24:46 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php on line 18
+[17-Jan-2025 04:25:03 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php on line 20
+[17-Jan-2025 15:23:18 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php on line 18
+[17-Jan-2025 17:24:38 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php on line 17
+[17-Jan-2025 17:25:12 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php on line 20
+[20-Jan-2025 00:56:30 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php on line 18
+[02-Nov-2025 02:24:23 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php on line 20
+[02-Nov-2025 02:40:27 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php on line 17
+[02-Nov-2025 03:49:44 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php on line 18
+[02-Nov-2025 12:40:13 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php on line 20
+[02-Nov-2025 12:44:56 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php on line 17
+[02-Nov-2025 12:45:52 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php on line 18
+[02-Nov-2025 12:53:13 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php on line 20
+[02-Nov-2025 12:59:34 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php on line 18
+[02-Nov-2025 13:02:39 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php on line 17
+[02-Nov-2025 13:13:25 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/ArgumentCount.php on line 20
+[02-Nov-2025 13:52:43 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Transport.php on line 17
+[02-Nov-2025 14:00:34 UTC] PHP Fatal error:  Uncaught Error: Class 'WpOrg\Requests\Exception' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Exception/Http.php on line 18

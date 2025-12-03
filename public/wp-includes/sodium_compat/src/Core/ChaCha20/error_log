@@ -1,0 +1,20 @@
+[11-Nov-2024 05:22:33 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/sodium_compat/src/Core/ChaCha20/Ctx.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/sodium_compat/src/Core/ChaCha20/Ctx.php on line 10
+[11-Nov-2024 05:51:13 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_ChaCha20_Ctx' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/sodium_compat/src/Core/ChaCha20/IetfCtx.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/sodium_compat/src/Core/ChaCha20/IetfCtx.php on line 10
+[13-Nov-2024 05:42:29 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/sodium_compat/src/Core/ChaCha20/Ctx.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/sodium_compat/src/Core/ChaCha20/Ctx.php on line 10
+[13-Nov-2024 14:10:52 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_ChaCha20_Ctx' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/sodium_compat/src/Core/ChaCha20/IetfCtx.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/sodium_compat/src/Core/ChaCha20/IetfCtx.php on line 10
+[22-Nov-2024 21:14:09 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/sodium_compat/src/Core/ChaCha20/Ctx.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/sodium_compat/src/Core/ChaCha20/Ctx.php on line 10

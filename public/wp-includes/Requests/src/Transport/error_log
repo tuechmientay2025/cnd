@@ -1,0 +1,124 @@
+[12-Nov-2024 22:07:12 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php on line 25
+[12-Nov-2024 22:08:03 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php on line 25
+[15-Nov-2024 02:57:01 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php on line 25
+[15-Nov-2024 03:01:02 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php on line 25
+[21-Dec-2024 15:45:59 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php on line 25
+[23-Dec-2024 08:01:23 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php on line 25
+[08-Jan-2025 01:52:58 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php on line 25
+[15-Jan-2025 01:51:29 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php on line 25
+[15-Jan-2025 01:51:33 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php on line 25
+[15-Jan-2025 04:36:49 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php on line 25
+[15-Jan-2025 05:30:30 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php on line 25
+[15-Jan-2025 15:24:12 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php on line 25
+[15-Jan-2025 16:35:54 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php on line 25
+[15-Jan-2025 16:47:23 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php on line 25
+[15-Jan-2025 17:07:13 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php on line 25
+[17-Jan-2025 04:38:25 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php on line 25
+[17-Jan-2025 04:38:46 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php on line 25
+[17-Jan-2025 16:26:25 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php on line 25
+[17-Jan-2025 17:38:29 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php on line 25
+[27-Jan-2025 02:15:26 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php on line 25
+[03-Feb-2025 03:44:26 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php on line 25
+[03-Feb-2025 03:44:28 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php on line 25
+[19-Mar-2025 16:24:23 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php on line 25
+[19-Mar-2025 16:27:23 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php on line 25
+[02-Nov-2025 02:22:34 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php on line 25
+[02-Nov-2025 03:49:11 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php on line 25
+[02-Nov-2025 12:42:27 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php on line 25
+[02-Nov-2025 12:42:57 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php on line 25
+[02-Nov-2025 12:48:00 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php on line 25
+[02-Nov-2025 12:55:51 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Fsockopen.php on line 25
+[02-Nov-2025 13:05:30 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Transport' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Transport/Curl.php on line 25

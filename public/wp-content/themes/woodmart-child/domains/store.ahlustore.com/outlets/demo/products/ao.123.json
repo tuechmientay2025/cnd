@@ -1,0 +1,76 @@
+{
+	"id_category":"123",
+	"name_category":"Áo",
+	"slug":"ao",
+	"image":"https://cf.shopee.vn/file/687f3967b7c2fe6a134a2c11894eea4b_tn",
+	"desc":"",
+	"order":0,
+	"child":[
+		{
+			"id_product":"3235252",
+			"title":"Gối Hơi Du Lịch Tặng Bịt Mắt, Bịt Tai",
+			"slug":"Gối-Hơi-Du-Lịch-Tặng-Bịt-Mắt-Bịt-Tai-i.91403578.1542668470",
+			"image":"https://cf.shopee.vn/file/718cae438a857db94e78d25e935499ef",
+			"gallery":["https://cf.shopee.vn/file/e111019d9e78e5b9fd545eef8f0157e4","https://cf.shopee.vn/file/7740207162b9d4824a1d6a730969cb10","https://cf.shopee.vn/file/52135a51eb572a63b24f07f4259659e8"],
+			"price":17000,
+			"sold":"19",
+			"stock":219,
+			"created_date":"2021-01-26 13:43:34",
+			"variation":{
+				"tim":{
+					"name":"Tím",
+					"stock":19,
+					"price":18000
+				},
+				"xanh-than":{
+					"name":"Xanh than",
+					"stock":10,
+					"price":18000
+				},
+				"xanh-la-cay":{
+					"name":"Xanh lá cây",
+					"stock":5,
+					"price":18000
+				},
+				"hong":{
+					"name":"Hồng",
+					"stock":2,
+					"price":18000
+				},
+				"mau-ngau-nhien":{
+					"name":"Mẫu ngẫu nhiên",
+					"stock":13,
+					"price":18000
+				}
+			}
+		},
+		{
+			"id_product":"32352523",
+			"title":"Áo Sơ Mi Gold Flo tay ngắn nam FEAER form suông, Chất lụa chéo",
+			"slug":"Áo Sơ Mi Gold Flo tay ngắn nam FEAER form suông, Chất lụa chéo.91403578.1542668470",
+			"image":"https://cf.shopee.vn/file/718cae438a857db94e78d25e935499ef",
+			"gallery":["https://cvf.shopee.vn/file/8f3b4a867a708b589d41afe26fe4302f","https://cf.shopee.vn/file/2872c1096c975ae0238570703568e4d2","https://cf.shopee.vn/file/d0279074b1fe2f7a2ba815baee0613c3","https://cf.shopee.vn/file/b3b553276060ad2d68e78273bda1eef6"],
+			"price":239000,
+			"sold":"10",
+			"stock":20,
+			"created_date":"2021-01-26 43:43:34",
+			"variation":{
+				"m":{
+					"name":"M",
+					"stock":19,
+					"price":239000
+				},
+				"xl":{
+					"name":"XL",
+					"stock":10,
+					"price":239000
+				},
+				"xxl":{
+					"name":"XXL",
+					"stock":5,
+					"price":239000
+				}
+			}
+		}
+	]
+}

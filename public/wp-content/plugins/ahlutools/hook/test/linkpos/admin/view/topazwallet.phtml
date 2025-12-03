@@ -1,0 +1,192 @@
+{% extends "index.phtml" %}
+{% block header %}{% endblock %} 
+{% block content %}
+<!-- Content Header (Page header) -->
+<div class="content-header">
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-6">
+        <h1 class="m-0 text-dark">Top 100 AZ WAllet</h1>
+      </div><!-- /.col -->
+      <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+          <li class="breadcrumb-item"><a href="<?php echo site_url() ?>">Home</a></li>
+          <li class="breadcrumb-item active">Top 100 AZ WAllet</li>
+        </ol>
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+
+<section class="content">
+  <div class="container-fluid">
+<table>
+
+<div class="row">
+<div class="col-xs-12">
+
+  <div class="box">
+    <div class="box-header"><h3 class="box-title"></h3></div>
+    <!-- /.box-header -->
+    <div style="display: flex;flex-direction: row">
+       <div class="item-box">
+          Check All <input type="checkbox" class="check_all" /> <button class="btn btn-info btn-delete-all">Delete All</button>
+       </div>
+       <div class="item-box" style="margin-left: 32px;">
+           <?php
+            if($total){
+               for ($i=1;$i<=$total;$i++) {
+                 echo '<a href="'.site_url("user/index/?page=".$i).'" class="btn btn-xs btn-primary">'.$i.'</a>';
+               }
+            }
+           ?>
+       </div>
+    </div>
+    <div class="box-body">
+
+      <table id="dataTable" class='table table-bordered table-striped'>
+        <thead>
+        <tr>
+          <th>STT</th>
+          <th>Barcode</th>
+          <th>Họ và tên</th>
+          <th>Tên đăng nhập</th>
+          <th>Số điện thoại</th>
+          <th>Quyền</th>
+          <th>Top</th>
+          <th>Top AZ Cashout</th>
+          <th>Date</th>
+        </tr>
+        </thead>
+        <tbody>
+        <?php foreach($users as $key => $val){
+         ?>
+          <tr data-id="<?php echo $val->id_user; ?>">
+            <td><?php echo $key; ?> <input type="checkbox" class="check_item"  name="ids[]" value="<?php echo $val->id_user; ?>" /></td>
+            <td><?php echo empty($val->barcode) ? 'Chưa cập nhật.' : $val->barcode; ?> <br />
+              <a href="<?php echo site_url("user/profile/{$val->id_user}"); ?>" class='btn btn-primary btn-sm'><i class="fa fa-eye"></i></a>
+              <button class="btn btn-danger btn-sm btn-delete" data-idUser='<?php echo $val->id_user;?>'><i class="fa fa-times"></i></button>
+              <a href="<?php echo site_url("user/edit/{$val->id_user}"); ?>" class='btn btn-primary btn-sm'><i class="fas fa-pencil-alt"></i></a>
+            </td>
+
+            <th><?php echo $val->fullname_user; ?> </th>
+            <td>
+              <?php echo $val->username_user; ?> <br/>
+              <?php echo $val->email_user; ?> <br/>
+              <?php echo $val->ip; ?>
+            </td>
+            <td><?php echo $val->phone_user; ?></td>
+            <td><?php echo $val->role_user; ?></td>
+      
+            <td><?php echo number_format($val->top,2); ?></td>
+            <td><?php echo $val->created_date; ?></td>
+            
+          </tr>
+        <?php } ?>
+        </tbody>
+      </table>
+    </div>
+    <!-- /.box-body -->
+  </div>
+  <!-- /.box -->
+</div>
+</div></table></div></section>
+
+
+{% endblock %}
+
+{% block footer %}  
+<script src="/~admin/assets/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="/~admin/assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>      
+<script type="text/javascript">
+$(document).ready(function(){
+  
+
+
+  $(document).on("click",'.btn-delete-all',function(){
+      if(confirm('Bạn chắc chắn xoá các tài khoản này không?')){
+        var ids = [];
+        var trs = [];
+          $('#dataTable').find(".check_item:checked").each(function(i,v){
+            ids.push(this.value);
+            trs.push($(this).closest("tr"));
+          });
+          $.ajax({
+            type: "POST",
+            url: "<?php echo site_url("user/deleteall/") ?>",
+            async: true,
+            data: {id_user:ids},
+            success: function(res) {
+               try{
+                res = JSON.parse(res);
+               }catch(ex){
+
+               }
+
+               if(typeof res =="object"){
+                 if(res.code){
+              
+                  showMessageBar(res.message);
+                  $.each(trs,function(i,v){
+                      v.remove();
+                  });
+                 }else{
+                  alert(res.error);
+                 }
+               }else{
+                alert(res);
+               }
+
+            }
+        });
+
+      }
+  });
+
+  $(document).on("click",'.check_all',function(){
+      $('#dataTable').find(".check_item").each(function(i,v){
+        this.checked = !this.checked;
+      });
+  });
+
+
+  $(document).on("click",".btn-delete",function(){
+    var tr =$(this).closest("tr");
+    var UID = tr.data('id');
+    if(confirm('Bạn chắc chắn muốn xoá không?')){
+      $.ajax({
+          type: "POST",
+          url: "<?php echo site_url("user/delete/") ?>"+UID,
+          async: true,
+          data: {},
+          success: function(res) {
+             try{
+              res = JSON.parse(res);
+             }catch(ex){
+
+             }
+
+             if(typeof res =="object"){
+               if(res.code){
+                tr.remove();
+                showMessageBar(res.message);
+                dataTable.fnDraw();
+                dataTable.ajax.reload();
+               }else{
+                showMessageBar(res.error,"warning");
+               }
+             }else{
+              alert(res);
+             }
+
+          }
+      });
+
+    }
+  });
+
+});
+</script>
+</script>
+{% endblock %}

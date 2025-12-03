@@ -1,0 +1,325 @@
+{
+    "callback": "",
+    "info": {
+        "shop": "C\u1eeda h\u00e0ng Bakery",
+        "phone": "+848342543",
+        "address": "123 \u0110\u01b0\u1eddng S\u1ed1 3, Qu\u1eadn 3, HCM.",
+        "gps": {
+            "lat": 10.8150763,
+            "lng": 106.674064
+        },
+        "logo": "https:\/\/store.ahlustore.com\/wp-content\/domain\/store.ahlustore.com\/outlets\/demo\/upload\/banner-02.jpg",
+        "gallery": [
+            "https:\/\/images.unsplash.com\/photo-1487377330423-12f2f3e6d27a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80",
+            "https:\/\/images.unsplash.com\/photo-1526199119161-4be1e3368d52?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1900&q=80"
+        ],
+        "content": "<p>Kitchen Koncept l&agrave; k&ecirc;nh mua s\u1eafm \u0111\u1ed3 d&ugrave;ng nh&agrave; b\u1ebfp nh\u1eadp kh\u1ea9u ch&iacute;nh h&atilde;ng d&agrave;nh cho c&aacute;c b&agrave; n\u1ed9i tr\u1ee3 v&agrave; c&aacute;c \u0111\u1ea7u b\u1ebfp chuy&ecirc;n nghi\u1ec7p. Ngo&agrave;i ch&iacute;nh s&aacute;ch b\u1ea3o h&agrave;nh d&agrave;i h\u1ea1n, Kitchen Koncept cam k\u1ebft mang \u0111\u1ebfn ng\u01b0\u1eddi d&ugrave;ng nh\u1eefng s\u1ea3n ph\u1ea9m ch\u1ea5t l\u01b0\u1ee3ng t\u1ed1t nh\u1ea5t v\u1edbi gi&aacute; c\u1ea1nh tranh nh\u1ea5t.<\/p>\r\n",
+        "cmnd": "",
+        "cmnd_before": "",
+        "cmnd_after": "",
+        "cmnd_selfee": "",
+        "action": "outlet_profile",
+        "name_outlet": "C\u1eeda h\u00e0ng Demo Test",
+        "lat": "10.8150763",
+        "lng": " 106.674064",
+        "layout": "0"
+    },
+    "marketing": {
+        "popup": "<img src='https:\/\/winwithmidas.com\/wp-content\/uploads\/2017\/12\/banner-marketing.jpg'>"
+    },
+    "products": [
+        {
+            "desc": "",
+            "id_product": 13646,
+            "title": "H\u00e0u n\u01b0\u1edbng Ph\u00f4 mai\/ con",
+            "sku": "",
+            "price": "10000",
+            "sale": "",
+            "id_category": null,
+            "category_name": "T\u1ea5t c\u1ea3",
+            "category_slug": "tat-ca",
+            "image": "<img width=\"600\" height=\"600\" src=\"https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/hao-nuong-pho-mai-600x600.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" loading=\"lazy\" srcset=\"https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/hao-nuong-pho-mai-600x600.jpg 600w, https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/hao-nuong-pho-mai-300x300.jpg 300w, https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/hao-nuong-pho-mai-150x150.jpg 150w, https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/hao-nuong-pho-mai-768x768.jpg 768w, https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/hao-nuong-pho-mai-100x100.jpg 100w, https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/hao-nuong-pho-mai.jpg 900w\" sizes=\"(max-width: 600px) 100vw, 600px\" \/>"
+        },
+        {
+            "desc": "",
+            "id_product": 13645,
+            "title": "H\u00e0u s\u1ed1ng\/ 1kg",
+            "sku": "",
+            "price": "55.000",
+            "sale": "",
+            "id_category": null,
+            "category_name": "T\u1ea5t c\u1ea3",
+            "category_slug": "tat-ca",
+            "image": "<img width=\"275\" height=\"183\" src=\"https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/hau-song.jpeg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" loading=\"lazy\" \/>"
+        },
+        {
+            "desc": "",
+            "id_product": 12486,
+            "title": "Tr\u1ee9ng c\u00fat",
+            "sku": "",
+            "price": "1000",
+            "sale": "",
+            "id_category": null,
+            "category_name": "T\u1ea5t c\u1ea3",
+            "category_slug": "tat-ca",
+            "image": "<img width=\"600\" height=\"363\" src=\"https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/trung-cut-lon-600x363.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" loading=\"lazy\" \/>"
+        },
+        {
+            "desc": "",
+            "id_product": 12159,
+            "title": "B\u00e1nh tr\u00e1ng",
+            "sku": "",
+            "price": "6000",
+            "sale": "",
+            "id_category": null,
+            "category_name": "T\u1ea5t c\u1ea3",
+            "category_slug": "tat-ca",
+            "image": "<img width=\"600\" height=\"600\" src=\"https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/ban-trang-tron-600x600.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" loading=\"lazy\" srcset=\"https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/ban-trang-tron-600x600.jpg 600w, https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/ban-trang-tron-150x150.jpg 150w, https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/ban-trang-tron-100x100.jpg 100w\" sizes=\"(max-width: 600px) 100vw, 600px\" \/>"
+        },
+        {
+            "desc": "",
+            "id_product": 12157,
+            "title": "H\u1ed9t v\u1ecbt l\u1ed9i x\u00e0o me",
+            "sku": "",
+            "price": "10000",
+            "sale": "",
+            "id_category": null,
+            "category_name": "T\u1ea5t c\u1ea3",
+            "category_slug": "tat-ca",
+            "image": "<img width=\"600\" height=\"532\" src=\"https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/hot-vit-lon-xao-me-600x532.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" loading=\"lazy\" \/>"
+        },
+        {
+            "desc": "",
+            "id_product": 12154,
+            "title": "H\u1ed9t v\u1ecbt l\u1ed9n",
+            "sku": "",
+            "price": "7000",
+            "sale": "",
+            "id_category": null,
+            "category_name": "T\u1ea5t c\u1ea3",
+            "category_slug": "tat-ca",
+            "image": "<img width=\"480\" height=\"360\" src=\"https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/hot-vit-lon.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" loading=\"lazy\" srcset=\"https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/hot-vit-lon.jpg 480w, https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/hot-vit-lon-300x225.jpg 300w\" sizes=\"(max-width: 480px) 100vw, 480px\" \/>"
+        },
+        {
+            "desc": "",
+            "id_product": 11716,
+            "title": "N\u01af\u1edaC NG\u1eccT",
+            "sku": "",
+            "price": "12000",
+            "sale": "",
+            "id_category": null,
+            "category_name": "T\u1ea5t c\u1ea3",
+            "category_slug": "tat-ca",
+            "image": "<img width=\"600\" height=\"418\" src=\"https:\/\/wp.ahlustore.com\/wp-content\/uploads\/2020\/09\/icon-hinh-anh-04-600x418.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" loading=\"lazy\" \/>"
+        },
+        {
+            "desc": "",
+            "id_product": 11710,
+            "title": "KH\u00d4 M\u1ef0C N\u01af\u1edaNG\/ 2 CON",
+            "sku": "",
+            "price": "15000",
+            "sale": "",
+            "id_category": null,
+            "category_name": "T\u1ea5t c\u1ea3",
+            "category_slug": "tat-ca",
+            "image": "<img width=\"500\" height=\"377\" src=\"https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/kho-muc-nuong.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" loading=\"lazy\" srcset=\"https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/kho-muc-nuong.jpg 500w, https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/kho-muc-nuong-300x226.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\" \/>"
+        },
+        {
+            "desc": "",
+            "id_product": 11708,
+            "title": "H\u00c0U N\u01af\u1edaNG M\u1ee0 H\u00c0NH\/ CON",
+            "sku": "",
+            "price": "7000",
+            "sale": "",
+            "id_category": null,
+            "category_name": "T\u1ea5t c\u1ea3",
+            "category_slug": "tat-ca",
+            "image": "<img width=\"600\" height=\"440\" src=\"https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/hao-nuong-mo-hanh-600x440.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" loading=\"lazy\" \/>"
+        },
+        {
+            "desc": "",
+            "id_product": 11709,
+            "title": "H\u00c0U LU\u1ed8C N\u01af\u1edaNG \/ CH\u00c9N",
+            "sku": "",
+            "price": "15000",
+            "sale": "",
+            "id_category": null,
+            "category_name": "T\u1ea5t c\u1ea3",
+            "category_slug": "tat-ca",
+            "image": "<img width=\"600\" height=\"600\" src=\"https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/hau-luoc-600x600.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"\" loading=\"lazy\" srcset=\"https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/hau-luoc-600x600.jpg 600w, https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/hau-luoc-150x150.jpg 150w, https:\/\/wp.ahlustore.com\/miennam\/hau-luoc-quan\/miennam\/hau-luoc-quan\/\/wp-content\/uploads\/2020\/12\/hau-luoc-100x100.jpg 100w\" sizes=\"(max-width: 600px) 100vw, 600px\" \/>"
+        }
+    ],
+    "outlet": {
+        "outlet_1": {
+            "id_outlet": "1",
+            "shop": "H\u00e0u Lu\u1ed9c Qu\u00e1n",
+            "points": [
+                {
+                    "id": "1",
+                    "name": "Ahlustore",
+                    "domain": "https:\/\/wp.ahlustore.com\/point-of-sale\/hau-luoc-quan\/ahlustore\/",
+                    "open_hour": ""
+                },
+                {
+                    "id": "2",
+                    "name": "Main",
+                    "domain": "https:\/\/wp.ahlustore.com\/point-of-sale\/hau-luoc-quan\/main\/",
+                    "open_hour": ""
+                }
+            ],
+            "country": "VN",
+            "address_1": "103\/12\/16 \u0110\u01b0\u1eddng s\u1ed1 20, khu ph\u1ed1 4, Ph\u01b0\u1eddng B\u00ecnh Ch\u00e1nh, Th\u1ee7 \u0110\u1ee9c. HCM",
+            "address_2": "",
+            "postcode": "",
+            "city": "",
+            "state": "",
+            "default_shipping_method": "none",
+            "wifi_network": "",
+            "wifi_password": "",
+            "email": "",
+            "phone": "+84909656119",
+            "fax": "",
+            "website": "",
+            "twitter": "@",
+            "facebook": "",
+            "instagram": "",
+            "snapchat": ""
+        }
+    },
+    "voucher": [
+        {
+            "title": "demo",
+            "id": 15096,
+            "discount_type": "percent",
+            "amount": "10"
+        }
+    ],
+    "tables": {
+        "mac-dinh": {
+            "id": "80",
+            "name": "M\u1eb7c \u0111\u1ecbnh",
+            "child": [
+                {
+                    "post_title": "B\u00e0n 1",
+                    "ID": "6005",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 2",
+                    "ID": "6006",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 3",
+                    "ID": "6007",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 4",
+                    "ID": "6008",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 5",
+                    "ID": "6009",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 7",
+                    "ID": "6010",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 6",
+                    "ID": "6011",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 8",
+                    "ID": "6012",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 9",
+                    "ID": "6013",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 10",
+                    "ID": "6014",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 11",
+                    "ID": "6015",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 12",
+                    "ID": "6016",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 13",
+                    "ID": "6017",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 14",
+                    "ID": "6019",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 16",
+                    "ID": "6020",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 15",
+                    "ID": "6021",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 17",
+                    "ID": "6022",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 18",
+                    "ID": "6023",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 19",
+                    "ID": "6024",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                },
+                {
+                    "post_title": "B\u00e0n 20",
+                    "ID": "6025",
+                    "slug": "mac-dinh",
+                    "term_id": "80"
+                }
+            ]
+        }
+    }
+}

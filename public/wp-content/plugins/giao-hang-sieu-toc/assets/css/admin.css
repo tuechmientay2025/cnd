@@ -1,0 +1,51 @@
+#wc-ghst-actions .inside {
+    margin: 0;
+    padding: 12px;
+}
+
+#wc-ghst-actions .order_notes,
+#wc-ghst-actions .order_notes .system-note,
+.ghst-actions,
+.ghst-actions .wide {
+    margin: 0;
+}
+
+.ghst-actions .wide {
+    text-align: center;
+}
+
+#wc-ghst-actions .wide .button,
+#create-order-form button#handle-create-order{
+    background: #FF7F32;
+    border-color: #FF7F32;
+    color: #FFFFFF;
+}
+
+#wc-ghst-actions .wide .button.view-order-id {
+    background: #2271B1!important;
+    border-color: #2271B1!important;
+}
+
+#service_type,
+#create-order-form .select2-container{
+    min-width: 175px!important;
+}
+
+.buy_me_a_coffee .dashicons {
+    width: 20px!important;
+    height: auto!important;
+    padding: 0!important;
+}
+
+.buy_me_a_coffee a {
+    color:#aa0000;
+    font-weight: bold;
+}
+
+.buy_me_a_coffee .dashicons:before {
+    padding: 0!important;
+    font-size: 20px!important;
+    background: transparent!important;
+    color: #aa0000!important;
+    box-shadow: none!important;
+}

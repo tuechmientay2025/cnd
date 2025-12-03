@@ -1,0 +1,72 @@
+{% extends "index.phtml" %}
+{% block header %}{% endblock %} 
+{% block content %}
+<h1>Quản lý khách hàng</h1>
+
+<ol class="breadcrumb">
+  <li><a href="{{url()}}"><i class="fa fa-dashboard"></i> Home</a></li>
+  <li><a href="#">Quản lý khách hàng</a></li>
+</ol>
+
+<div class='row'>
+  <div class='col-xs-12'>
+    <a href='{{ url("user/addCustomer") }}' class='btn btn-primary btn-md'>Thêm tài khoản</a>
+  </div>
+</div>
+
+<div class="row">
+<div class="col-xs-12">
+  <div class="box">
+    <div class="box-header">
+      <h3 class="box-title">Danh sách</h3>
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body">
+      <table id="example1" class="table table-bordered table-striped">
+        <thead>
+        <tr>
+          <th>Code</th>
+          <th>Phone</th>
+          <th>Address</th>
+          <th>Người giới thiệu</th>
+          <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for item in page %}
+        <?php
+            $who = $item->getReferer();
+            $url = site_url('user/profile/'.$item->id_user);
+         ?>
+          <tr>
+            <td><a href='{{url}}' target='_blank'>{{item.barcode|e}}<br/>{{item.username_user|e}}</a></td>
+            <td>{{item.phone_user|e}}</td>
+            <td>{{item.address_user}}</td>
+            <td><?php echo $who?"<a href='".site_url('user/profile/'.$who->id_user)."' target='_blank'>{$who->username_user}</a>":""; ?></td>
+            <td>
+              <button id='delete' data-id='{{item.id_user}}' class="btn btn-danger btn-xs">x</button>
+              <a href='{{url("user/editCustomer")}}/{{item.id_user}}' class='btn btn-primary btn-xs'>+</a>
+            </td>
+          </tr>
+        {% endfor  %}
+
+        </tfoot>
+      </table>
+    </div>
+    <!-- /.box-body -->
+  </div>
+  <!-- /.box -->
+</div>
+</div>
+{% endblock %}
+
+{% block footer %}  
+    <script src="/~admin/assets/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="/~admin/assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>      
+    <script type="text/javascript">
+         $(function () {
+
+          $('#example1').DataTable();
+        });
+    </script>
+{% endblock %}

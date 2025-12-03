@@ -1,0 +1,92 @@
+.product_title{
+  font-size: 1.4rem;
+}
+h1.header-color,h2.header-color,h3.header-color,h4.header-color,h5.header-color,.header-color .element-title{
+    border-bottom: 2px solid #83b734;
+        padding-left: 0;
+}
+
+body.single header.entry-header{
+	display: none;
+}
+
+
+.widget{}
+.widget h5.widget-title,h3.vc_custom_heading,h4.vc_custom_heading{
+/*	background-color: #83b734;
+    padding: 8px 0;
+    color: #fff;*/
+
+    background-color: #f9f9f9;
+    padding: 8px 0;
+    color: #333;
+    padding-left: 8px;
+}
+@media  (min-width: 1024px){
+   .woodmart-product-categories{
+       display: block;
+        white-space: nowrap;
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+}
+
+.shop-content-area{
+  margin-top: 16px;
+}
+
+.post-list-mobile{}
+  .post-list-mobile .vc_grid-item-mini{
+    display: flex;
+      flex-direction: row;
+  }
+  .post-list-mobile .vc_grid-item-mini .vc_gitem-is-link{
+    width: 85px;
+      height: 85px;
+      margin-right: 8px;
+  }
+  .post-list-mobile .vc_gitem-post-data-source-post_title{
+    display: block;
+      display: -webkit-box;
+      max-width: 100%;
+      height: 40px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+  .post-list-mobile .vc_gitem-post-data-source-post_title h4{
+    font-size: 0.9rem;
+  }
+  .post-list-mobile .vc_gitem-post-data-source-post_excerpt{
+    display:none;
+  }
+  .post-list-mobile .vc_btn3-container{
+    margin: 0;
+  }
+  .post-list-mobile .vc_btn3-container a{
+        padding: 4px;
+  }
+  .post-list-mobile .vc_grid-item{
+    padding: 0 0 8px 0!important;
+      margin-bottom: 8px;
+      border-bottom: 1px solid rgb(206 206 206 / 42%);
+  }
+  @media (max-width: 1020px) {
+    .post-list-mobile .vc_gitem-post-data-source-post_title{
+        
+    }
+  }
+
+
+  .product-tabs-wrapper{
+  width: 100%;
+}
+@media   (max-width: 1024px) {
+    .product-image-summary .cart{
+        display: flex;
+        justify-content: space-between;
+    }
+    .product-image-summary .cart .quantity input[type=button]{
+        min-width: 55px;
+    }
+}

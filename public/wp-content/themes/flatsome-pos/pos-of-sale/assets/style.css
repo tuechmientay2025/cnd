@@ -1,0 +1,93 @@
+
+.product-image-summary .entry-title{
+	font-size: 2rem;
+}
+
+.vc_single_image-wrapper:before {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    -webkit-transform: skewX(
+-25deg
+);
+    transform: skewX(
+-25deg
+);
+}
+
+.vc_single_image-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+ .vc_single_image-wrapper:hover:before {
+    -webkit-animation: shine 1.1s;
+    animation: shine 1.1s; }
+
+@-webkit-keyframes shine {
+  100% {
+    left: 125%; } }
+
+@keyframes shine {
+  100% {
+    left: 125%; } }
+
+.container{
+    margin:0 auto!important;
+}
+
+
+
+
+
+/**/
+.page-id-46369 .home-banner-height{
+    height: 575px;
+}
+.page-id-46369 .home-banner-height .vc-hoverbox{
+    height: 100%;
+}
+
+
+
+.vc_grid-container.post-mobile{
+
+}
+.vc_grid-container.post-mobile .vc_grid-item .vc_gitem-is-link{
+        width: 75px!important;
+}
+.vc_grid-container.post-mobile .vc_grid-item .vc_grid-item-mini{
+        display: flex;
+    justify-content: flex-start;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.vc_grid-container.post-mobile .vc_grid-item .vc_gitem-post-data-source-post_excerpt{
+    
+}
+.vc_grid-container.post-mobile .vc_grid-item .vc_gitem-post-data-source-post_title{
+    font-size: 15px;
+}
+.vc_grid-container.post-mobile .vc_grid-item .vc_btn3-container,.vc_grid-container.post-mobile .vc_grid-item .vc_gitem-post-data-source-post_excerpt{
+    display: none;
+}
+.vc_grid-container.post-mobile .vc_grid-item .vc_gitem-post-data-source-post_title{
+    text-transform: capitalize;
+}
+.vc_grid-container.post-mobile .vc_grid-item .vc_gitem-post-data-source-post_title h4{
+        font-size: 14px;
+}
+.vc_grid-container.post-mobile .vc_grid.vc_row.vc_grid-gutter-30px .vc_grid-item{
+        padding-bottom: 8px;
+}
+.vc_grid-container.post-mobile .vc_gitem-zone{
+        width: 100%;
+}

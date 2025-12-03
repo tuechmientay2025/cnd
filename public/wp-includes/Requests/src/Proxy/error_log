@@ -1,0 +1,80 @@
+[12-Nov-2024 22:06:24 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[15-Nov-2024 02:41:33 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[23-Dec-2024 19:34:14 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[23-Dec-2024 20:51:12 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[23-Dec-2024 23:30:10 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[23-Dec-2024 23:57:00 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[24-Dec-2024 00:32:06 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[09-Jan-2025 02:42:10 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[15-Jan-2025 01:54:08 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[15-Jan-2025 06:28:33 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[15-Jan-2025 15:56:34 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[15-Jan-2025 19:08:44 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[17-Jan-2025 01:52:06 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[17-Jan-2025 17:09:42 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[19-Jan-2025 11:09:15 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[27-Jan-2025 02:15:24 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[03-Feb-2025 03:42:51 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[02-Nov-2025 02:44:29 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[02-Nov-2025 11:00:49 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24
+[02-Nov-2025 11:12:15 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Proxy' not found in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zatokzdl/wp.zatovi.net/wp-includes/Requests/src/Proxy/Http.php on line 24

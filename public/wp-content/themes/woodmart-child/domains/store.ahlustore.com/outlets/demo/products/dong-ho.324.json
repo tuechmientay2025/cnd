@@ -1,0 +1,21 @@
+{
+	"id_category":"324",
+	"name_category":"Đồng Hồ",
+	"slug":"dong-ho",
+	"image":"https://cf.shopee.vn/file/86c294aae72ca1db5f541790f7796260_tn",
+	"desc":"",
+	"order":0,
+	"child":[
+		{
+			"id_product":"323523252",
+			"title":"Đồng hồ nam chính hãng OLEVS,dây da xịn, mặt kính chống xước, kim phát quang ban đêm,phong cách thời trang Hàn -BH 1 NĂM",
+			"slug":"Đồng hồ nam chính hãng OLEVS,dây da xịn, mặt kính chống xước, kim phát quang ban đêm,phong cách thời trang Hàn -BH 1 NĂM.323523252",
+			"image":"https://cf.shopee.vn/file/dd6ea07c1afa7fe093e3035ba08ad981",
+			"gallery":["https://cvf.shopee.vn/file/c529c348ecce39c04e00038a07717b23","https://cf.shopee.vn/file/ce9f9e2245fd1ac98066606bac85f73e","https://cf.shopee.vn/file/dd6ea07c1afa7fe093e3035ba08ad981","https://cf.shopee.vn/file/51954d1291b0201df66d3a6941b09c77","https://cf.shopee.vn/file/27ddd3922d67f98365f7c46fcbf02034"],
+			"price":409000,
+			"sold":"23",
+			"stock":21,
+			"created_date":"2021-01-26 23:43:34"
+		}
+	]
+}

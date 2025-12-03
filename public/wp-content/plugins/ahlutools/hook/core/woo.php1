@@ -1,0 +1,66 @@
+<?php
+
+
+ 
+
+add_action( 'admin_ajax_create_order',"create_order_");
+add_action( 'wp_ajax_nopriv_create_order',"create_order_");
+function create_order_(){
+    create_order($_POST);
+}
+//https://stackoverflow.com/questions/39401393/how-to-get-woocommerce-order-details
+//https://rudrastyh.com/woocommerce/create-orders-programmatically.html
+//https://forum.ionicframework.com/t/http-post-request-to-woocommerce-api-creates-empty-order-no-data/172127/7
+function create_order($data){
+    $order = wc_create_order();
+  
+     // add products 
+    foreach($_POST["line_items"] as $v){
+        $order->add_product( wc_get_product( $v["product_id"] ), $v["quantity"]  );
+    }
+    
+    //check enable user registeration
+    // $order->set_customer_id( 1 );
+
+    // $order->set_customer_ip_address( '10.1.1.1' );
+   
+    
+    // add shipping
+    $shipping = new WC_Order_Item_Shipping();
+    $shipping->set_method_title( 'Free shipping' );
+    $shipping->set_method_id( 'free_shipping:1' ); // set an existing Shipping method ID
+    $shipping->set_total( 0 ); // optional
+    $order->add_item( $shipping );
+    
+    // add billing and shipping addresses
+    $address =array_merge(array(
+    	'first_name' => 'Misha',
+    	'last_name'  => 'Rudrastyh',
+    	'company'    => 'rudrastyh.com',
+    	'email'      => 'no-reply@rudrastyh.com',
+    	'phone'      => '+995-123-4567',
+    	'address_1'  => '29 Kote Marjanishvili St',
+    	'address_2'  => '',
+    	'city'       => 'Tbilisi',
+    	'state'      => '',
+    	'postcode'   => '0108',
+    	'country'    => 'GE'
+    ),$_POST["billing"]);
+    
+    $order->set_address( $address, 'billing' );
+    $order->set_address( $address, 'shipping' );
+    
+    // add payment method
+    $order->set_payment_method($_POST["payment_method"] );
+    $order->set_payment_method_title( $_POST["payment_method_title"] );
+    
+    // order status
+    $order->set_status( 'wc-completed', 'Order is created programmatically' );
+    
+    // calculate and save
+    $order->calculate_totals();
+    $order->save();
+    
+    echo json_encode($order);
+    wp_die();
+}

@@ -1,0 +1,1 @@
+import{j as e}from"../main.DB7J0o3m.1748844899215.js";import{w as i,R as n}from"./withQuillEditorConfig.VGjlY2Aq.1748844899215.js";const t=(window==null?void 0:window.support_genix_config)||{},s=(t==null?void 0:t.weekend_notice)||"",d=s||"",r=i(n,!0,[]),a=o=>e.jsx(r,{...o});export{a as Q,d as w};
